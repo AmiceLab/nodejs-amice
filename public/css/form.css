@@ -1,0 +1,61 @@
+.product-form {
+  width: 40rem;
+  max-width: 90%;
+  margin: auto;
+}
+
+.form-control {
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.form-control label,
+.form-control input,
+.form-control textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.25rem;
+}
+
+.form-control input,
+.form-control textarea {
+  border: 1px solid rgb(188, 205, 221);
+  font: inherit;
+  border-radius: 4px;
+}
+
+.form-control input:focus,
+.form-control textarea:focus {
+  outline-color: rgb(176, 176, 180);
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.25rem 1rem;
+  text-decoration: none;
+  font: inherit;
+  border: 1px solid rgb(126, 138, 155);
+  color: white;
+  background: rgb(187, 185, 185);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: slategray;
+}
+
+/* button {
+  font: inherit;
+  border: 1px solid rgb(126, 138, 155);
+  color: white;
+  background: rgb(187, 185, 185);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover,
+button:active {
+  background-color: slategray;
+} */

@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node", // Tells VS Code this is a Node.js app
+      "request": "launch", // "launch" means start the app, vs. "attach" to an already-running process
+      "name": "Launch Program", // Name shown in the debug dropdown in VS Code
+      "skipFiles": ["<node_internals>/**"], // Skip stepping through Node internals when debugging
+      "program": "${workspaceFolder}/app.js", // The main JS file to run (entry point)
+      "restart": true, // Auto-restart if the program crashes or stops
+      "runtimeExecutable": "nodemon", // Use nodemon to run the app (instead of just node)
+      "console": "integratedTerminal" // Show output in VS Code's integrated terminal
+    }
+  ]
+}
